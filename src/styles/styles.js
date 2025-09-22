@@ -1,0 +1,176 @@
+import { Dimensions, StyleSheet } from 'react-native';
+
+const { width, height } = Dimensions.get('window');
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+  },
+  header: {
+    alignItems: 'center',
+    padding: 20,
+    borderBottomWidth: 1,
+    borderBottomColor: '#ccc',
+    backgroundColor: '#f8f8f8',
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginBottom: 5,
+  },
+  subtitle: {
+    fontSize: 16,
+    color: '#666',
+    textAlign: 'center',
+  },
+  content: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 20,
+  },
+  button: {
+    backgroundColor: '#ffcc00',
+    padding: 15,
+    borderRadius: 5,
+    margin: 10,
+    minWidth: 200,
+    alignItems: 'center',
+  },
+  buttonText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333',
+  },
+  list: {
+    flex: 1,
+  },
+  mesaItem: {
+    padding: 20,
+    borderBottomWidth: 1,
+    borderBottomColor: '#ccc',
+    marginHorizontal: 10,
+    marginVertical: 5,
+    backgroundColor: '#f9f9f9',
+    borderRadius: 5,
+  },
+  mesaTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginBottom: 5,
+  },
+  finalizarBtn: {
+    color: 'red',
+    marginTop: 10,
+    fontWeight: 'bold',
+  },
+  floatingButton: {
+    position: 'absolute',
+    right: 20,
+    bottom: 80,
+    backgroundColor: '#ffcc00',
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+    elevation: 5,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 3,
+  },
+  plusSign: {
+    fontSize: 30,
+    color: 'white',
+    fontWeight: 'bold',
+  },
+  bottomNav: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    padding: 15,
+    borderTopWidth: 1,
+    borderTopColor: '#ccc',
+    backgroundColor: '#f8f8f8',
+  },
+  navButton: {
+    padding: 10,
+  },
+  navText: {
+    fontSize: 16,
+    color: '#333',
+  },
+  activeNavText: {
+    fontSize: 16,
+    color: '#ffcc00',
+    fontWeight: 'bold',
+  },
+  refeicaoItem: {
+    padding: 20,
+    borderBottomWidth: 1,
+    borderBottomColor: '#ccc',
+    marginHorizontal: 10,
+    marginVertical: 5,
+    backgroundColor: '#f9f9f9',
+    borderRadius: 5,
+  },
+  refeicaoTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginBottom: 5,
+  },
+  refeicaoDesc: {
+    fontSize: 14,
+    color: '#666',
+    marginBottom: 5,
+  },
+  refeicaoPrice: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#2c3e50',
+  },
+  serveText: {
+    fontSize: 14,
+    color: '#27ae60',
+    fontStyle: 'italic',
+  },
+  menuGrid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    padding: 10,
+  },
+  menuItem: {
+    width: '40%',
+    padding: 20,
+    margin: 10,
+    backgroundColor: '#f0f0f0',
+    alignItems: 'center',
+    borderRadius: 10,
+    elevation: 2,
+  },
+  menuText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  input: {
+    borderWidth: 1,
+    borderColor: '#ccc',
+    padding: 15,
+    margin: 10,
+    borderRadius: 5,
+    fontSize: 16,
+  },
+  formContainer: {
+    padding: 20,
+  },
+  label: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginLeft: 10,
+    marginBottom: 5,
+  },
+});
