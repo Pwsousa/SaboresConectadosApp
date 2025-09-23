@@ -12,7 +12,7 @@ export default function MenuGrid({ navigation }) {
             styles.menuItem, 
             { backgroundColor: item.color }
           ]}
-          onPress={() => navigation.navigate(item.key)}
+          onPress={() => navigation.navigate(item.key === 'Refeicoes' ? 'Refeicoes' : 'Inicio')}
         >
           <Text style={styles.menuText}>{item.label}</Text>
         </TouchableOpacity>

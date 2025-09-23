@@ -181,7 +181,7 @@ export const sobremesas = [
   },
   {
     id: 3,
-    nome: 'Bolo de Rolo',
+    nome: 'Bolo de Morango',
     descricao: 'Doce regional pernambucano',
     preco: 15.00,
   },
